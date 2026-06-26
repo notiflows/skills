@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "notiflows/skills",
+  "description": "Agent skills for Notiflows — create and manage notiflows as code, with the CLI and MCP.",
+  "skills": {
+    "notiflows-schema": {
+      "skillPath": "skills/notiflows-schema/SKILL.md",
+      "description": "The notiflow.json flat-steps format: step types, positions, branching, conditions, and per-type settings."
+    },
+    "notiflows-template-schema": {
+      "skillPath": "skills/notiflows-template-schema/SKILL.md",
+      "description": "Channel templates: the {channel_type, data} shape, per-channel fields, content_type enums, and @-suffix body extraction."
+    },
+    "notiflows-cli": {
+      "skillPath": "skills/notiflows-cli/SKILL.md",
+      "description": "The @notiflows/cli tool: install, account-token auth, pull/push/publish/validate/diff, and notiflow run."
+    },
+    "notiflows-docs-support": {
+      "skillPath": "skills/notiflows-docs-support/SKILL.md",
+      "description": "Where to find authoritative answers: the docs, llms.txt, the CLI and MCP, and how to get unstuck."
+    }
+  }
+}

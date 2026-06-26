@@ -1,0 +1,16 @@
+{
+  "name": "notiflows-skills",
+  "owner": {
+    "name": "Notiflows",
+    "email": "support@notiflows.com"
+  },
+  "plugins": [
+    {
+      "name": "notiflows",
+      "source": "./",
+      "description": "Skills + hosted MCP for creating Notiflows notifications as code.",
+      "version": "0.1.0",
+      "keywords": ["notiflows", "notifications", "mcp"]
+    }
+  ]
+}

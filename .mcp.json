@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "notiflows": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.notiflows.com/mcp",
+        "--header",
+        "Authorization: Bearer ${user_config.token}"
+      ]
+    }
+  }
+}
