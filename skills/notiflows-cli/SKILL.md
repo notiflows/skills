@@ -34,7 +34,7 @@ nf notiflow publish welcome-series # publish it live
   stored credentials.
 - **Project resolution precedence**: `--project` flag → `NOTIFLOWS_PROJECT` env
   → `notiflows.json` `project` field.
-- **Base URL**: defaults to `https://api.notiflows.com/api/management/v1`;
+- **Base URL**: defaults to `https://api.notiflows.com/management/v1`;
   override with `--base-url` or `NOTIFLOWS_BASE_URL`.
 - **`notiflows.json`** (project config, discovered upward from cwd):
   `{ "notiflowsDir": ".notiflows", "project": "my-project" }`. Notiflows live at
